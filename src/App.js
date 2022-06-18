@@ -10,7 +10,7 @@ function App() {
 
   const addExepnseHandler = (expense) => {
     setExpenses((prevSatate) => {
-      return [ expense,...prevSatate];
+      return [expense, ...prevSatate];
     });
   };
 
